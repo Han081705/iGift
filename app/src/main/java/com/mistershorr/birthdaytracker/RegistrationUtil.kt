@@ -31,7 +31,7 @@ object RegistrationUtil {
 
     // isn't empty
     fun validateName(name: String) : Boolean {
-        return false
+        return true
     }
 
     // isn't empty
