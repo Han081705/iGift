@@ -76,6 +76,7 @@ class BirthdayDetailActivity : AppCompatActivity() {
                     override fun handleResponse(response: Long?) {
                         // Contact has been deleted. The response is the
                         // time in milliseconds when the object was deleted
+                        finish()
                     }
 
                     override fun handleFault(fault: BackendlessFault) {
